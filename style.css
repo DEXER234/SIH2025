@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root {
+    --primary-color: #108961;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #010A07;
+    font-family: "DM Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    max-width: 1148px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav .nav-left h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+nav .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav .nav-right .nav-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+nav .nav-right .nav-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav .nav-right .nav-menu ul .nav-menu-item1 a {
+    background-color: var(--primary-color);
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+nav .nav-right .nav-button button {
+    padding: 13px 18px;
+    border-radius: 50px;
+    border: none;
+    background-color: #108961;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .nav-right .nav-button button:hover {
+    background-color: #34D5A0;
+    color: #000;
+}
+
+
+/* hero section */
+
+body .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1148px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+body .hero .hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+body .hero .hero-left h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+}
+
+body .hero .hero-left span {
+    font-size: 48px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+body .hero .hero-left h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;;
+}
+
+body .hero .hero-left p {
+    font-size: 16px;
+    color: #ffffff7e;
+    font-weight: 400;
+}
+
+body .hero .hero-left .button-area {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+body .hero .hero-left .button-area .social i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+body .hero .hero-left .button-area i {
+    font-size: 20px;
+}
+
+body .hero .hero-left button {
+    padding: 13px 18px;
+    border-radius: 50px;
+    border: none;
+    background-color: #108961;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+body .hero .hero-left button:hover {
+    background-color: #34D5A0;
+    color: #000;
+}
+
+body .hero .hero-right {
+    width: 524px;
+    height: 357px;
+    border-radius: 30px;
+    background-image: url("./Assets/farmer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* about section */
+
+body .About {
+    max-width: 1148px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+body .About .about-image {
+    width: 1148px;
+    height: 225px;
+    border-radius: 30px;
+    background-image: url("./Assets/field.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+body .About .about-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+body .About .about-title span {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+body .About .Image-title {
+    color: #fff;
+    width: 386px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 64px;
+    margin-left: 73px;
+}
+
+body .About .Image-title span {
+    color: #16BA84;
+    font-weight: bold;
+}
+
+
+body .About p {
+    font-size: 16px;
+    color: #ffffff83;
+    font-weight: 400;
+    text-align: center;
+    width: 644px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* services section */
+
+body .ChooseUs {
+    max-width: 1148px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+body .ChooseUs h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+body .ChooseUs h1 span {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+body .ChooseUs .c-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 144px;
+    margin-right: 144px;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+body .ChooseUs .c-icons .c-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+body .ChooseUs .c-icons .c-icon i {
+    color: var(--primary-color);
+    font-size: 40px;
+    background-color: #fff;
+    width: 170px;
+    height: 128px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .ChooseUs .c-icons .c-icon p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Footer */
+
+body footer {
+    background-color: #78A193;
+    max-width: 1148px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 64px;;
+    display: flex;    
+    border-radius: 30px;
+    height: 209px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 66px;
+    padding-right: 66px;
+}
+
+body footer .f-center {
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+body footer .f-right ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+body footer .f-right ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+body footer .f-left  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body footer .f-left h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+body footer .f-center p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    width: 612px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
